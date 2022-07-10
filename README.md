@@ -2,15 +2,21 @@
 
 ## About
 
-Open a text file call "idle-codes.txt" and parse the Idle Champion codes from it and write out the codes that match the format below to another text file called "ic-codes-parsed.txt"
+The program takes manual copied chat history from the Idle Champions Discord server, Combinations channel, and parses it into a list of combinations that can be inputted into the [Idle Combos](https://github.com/dhusemann/idlecombos/) program.
 
-Idle Champion codes are in the format of:
-   XXXX-XXXX-XXXX or XXXX-XXXX-XXXX-XXXX
-  where X is a character in the range of A-Z, 0-9, or !
+## How to use
 
-The input text file is manual copied chat information from the Idle Champions Discord server, Combinations channel.
-
-The output file will contain the codes in a format that can be submitted to the [Idle Combos](https://github.com/dhusemann/idlecombos/) AHK interface.
+- Copy the recent chat history from the Idle Champions Discord server, Combinations channel into a file `idle-codes.txt`.
+- Run the program below to parse the Idle Champion codes from it and get an output file.
+- The output file `ic-codes-parsed.txt` will be generated and contain the codes in a format that can be submitted to the [Idle Combos](https://github.com/dhusemann/idlecombos/) AHK interface.
+- Format of the output file will have a code on each line, for example:
+ 
+```txt
+XXXX-XXXX-XXX1
+XXXX-XXXX-XXXX-XXX2
+XXXX-XXXX-XXX3
+XXXX-XXXX-XXX4
+```
 
 ## Run
 
