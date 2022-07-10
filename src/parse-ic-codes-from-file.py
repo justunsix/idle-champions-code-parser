@@ -7,6 +7,7 @@
 #  The codes in the file are not in any particular order.
 #  Each code in the file are unique.
 #  The text file is extracted from the Idle Champions Discord server, Combinations channel
+#  The output file will contain the codes in a format that can be submitted to the Idle Combos https://github.com/dhusemann/idlecombos/ AHK interface.
 
 # import required modules
 import re
