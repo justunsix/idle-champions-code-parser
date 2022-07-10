@@ -8,10 +8,9 @@ Idle Champion codes are in the format of:
    XXXX-XXXX-XXXX or XXXX-XXXX-XXXX-XXXX
   where X is a character in the range of A-Z, 0-9, or !
 
-The input text file is extracted from the Idle Champions Discord server, Combinations channel.
+The input text file is manual copied chat information from the Idle Champions Discord server, Combinations channel.
 
 The output file will contain the codes in a format that can be submitted to the [Idle Combos](https://github.com/dhusemann/idlecombos/) AHK interface.
-
 
 ## Run
 
