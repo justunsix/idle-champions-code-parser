@@ -15,7 +15,10 @@ The output file will contain the codes in a format that can be submitted to the 
 
 ## Run
 
+Run in root of repository
+
 ```sh
+cd src
 python parse-ic-codes-from-file.py
 ```
 
