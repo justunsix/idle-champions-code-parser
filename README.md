@@ -56,7 +56,5 @@ Justin Tung - [GitHub](https://github.com/justunsix/)
 
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
 - [Best ReadMe Temmplate](https://github.com/othneildrew/Best-README-Template)
 - [VS Code](https://code.visualstudio.com/) and [Python Extensions](https://code.visualstudio.com/docs/languages/python) and [GitHub Copilot](https://github.com/features/copilot)
