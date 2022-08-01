@@ -56,5 +56,5 @@ Justin Tung - [GitHub](https://github.com/justunsix/)
 
 ## Acknowledgments
 
-- [Best ReadMe Temmplate](https://github.com/othneildrew/Best-README-Template)
+- [Best ReadMe Template](https://github.com/othneildrew/Best-README-Template)
 - [VS Code](https://code.visualstudio.com/) and [Python Extensions](https://code.visualstudio.com/docs/languages/python) and [GitHub Copilot](https://github.com/features/copilot)
