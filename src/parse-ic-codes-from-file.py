@@ -22,16 +22,12 @@ def getCodes(lines):
         line = line.strip()
         # if the line is not empty
         if line:
-            # parse the line and find the code in the format XXXXXXXXXXXX with no characters after
+            # parse the line and find the code in the format XXXX-XXXX-XXXX-XXXX or XXXXXXXXXXXXXXXX or XXXX-XXXX-XXXX or XXXXXXXXXXXX
             # where X is a character in the range of A-Z, 0-9, !
-            # if the code is found, add it to the list of codes    
-
-            
-
-            # parse the line and find the code in the format XXXX-XXXX-XXXX or XXXX-XXXX-XXXX-XXXX or XXXXXXXXXXXX or XXXXXXXXXXXXXXXX
-            # where X is a character in the range of A-Z, 0-9, !
+            # the longer 16 character codes need to be looked for first so they are recognized before the shorter 12 character codes otherwise 
+            # only the 12 character codes will be recognized
             # if the code is found, add it to the list of codes
-            code = re.findall(r'[A-Z0-9!]{4}-[A-Z0-9!]{4}-[A-Z0-9!]{4}|[A-Z0-9!]{4}-[A-Z0-9!]{4}-[A-Z0-9!]{4}-[A-Z0-9!]{4}|[A-Z0-9!]{12}|[A-Z0-9!]{16}', line)
+            code = re.findall(r'[A-Z0-9!]{4}-[A-Z0-9!]{4}-[A-Z0-9!]{4}-[A-Z0-9!]{4}|[A-Z0-9!]{4}-[A-Z0-9!]{4}-[A-Z0-9!]{4}|[A-Z0-9!]{16}|[A-Z0-9!]{12}', line)
             if code:
                 # append the line to the list of codes
                 codes.append(code[0])
